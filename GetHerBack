@@ -1,0 +1,27 @@
+#!/bin/bash
+	
+echo "Hi! how much time you need this program be in run? (minuates)"
+read min
+
+
+while [[ ! $min =~ ^[0-9]+$ ]]; do
+echo "Please enter a number:"
+read min
+done
+sec=min*60
+
+#window_id=xdotool xdotool search --name "Telegram"
+#echo $window_id	
+window_id=96468996
+
+for ((i=0; i<=sec; i++))
+do 
+xdotool type  --window $window_id "i love you"
+sleep 1
+done
+
+
+
+
+
+
