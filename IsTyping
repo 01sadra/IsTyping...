@@ -1,25 +1,26 @@
 #!/bin/bash
-	
-echo "Hi! how much time you need this program be in run? (minuates)"
+
+
+echo "Hi! how many minutes is enough for your purpose?"
 read min
 
+#check if input is a number or not
 while [[ ! $min =~ ^[0-9]+$ ]];
     do
     echo "Please enter a number:"
     read min
     done
 
-
-window_id=xdotool xdotool search --name "Telegram"
+#search for telegram window id
+window_id=xdotool search —name "Telegram "
 echo $window_id	
 
-#window_id=104857604
-
+#make an array with statment and convert minutes to seconds
 array=(i love you.)
 sec=min*60/4
 
+#do the job:) 
 for ((i=1; i<=sec; i++))
-   
     do 
     for item in ${array[@]}
         do
@@ -29,12 +30,13 @@ for ((i=1; i<=sec; i++))
 
     sleep 1
 
+#simulate human behavior with stop a while
     if (($i % 10 == 0))
     then
         sleep 10
     fi
 
-        if (($i % 31 == 0))
+        if (($i % 37 == 0))
     then
         sleep 15
     fi
