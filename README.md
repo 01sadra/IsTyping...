@@ -20,6 +20,8 @@ Here, I chat with myself :) and as you can see "Is Typing..." is working.
 
 Hooray :) !
 
+I write a blog post in Farsi about this script [here](https://sadraa.me/40linebash/)
+
 ## Contribution
 
-It's not Linux Core but I will appreciate any kind of contribution :heart:
+It's not the Linux Core but I will appreciate any kind of contribution :heart:
