@@ -12,8 +12,14 @@ while [[ ! $min =~ ^[0-9]+$ ]];
     done
 
 #search for telegram window id
-window_id=xdotool search —name "Telegram "
-echo $window_id	
+get_window_id(){
+    value= xdotool search --name "Telegram "
+    echo value
+}
+
+window_id=$(get_window_id)
+#window_id=100663300
+echo $window_id
 
 #make an array with statment and convert minutes to seconds
 array=(i love you.)
@@ -24,8 +30,7 @@ for ((i=1; i<=sec; i++))
     do 
     for item in ${array[@]}
         do
-        xdotool type  --window $window_id "$item "
-        sleep 1
+        xdotool type --window $window_id "$item "
         done
 
     sleep 1
