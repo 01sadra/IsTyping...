@@ -13,6 +13,12 @@ Run:
 cd IsTyping/
 ./IsTyping
 ```
+
+Here, I chat with myself :) and as you can see "Is Typing..." is working.
+
 ![alt](https://github.com/01sadra/IsTyping.../blob/master/GifSample/isTypingSample.gif "gif sample")
 
 Hooray :) !
+
+##contribution
+It's not Linux Core but I will appreciate any kind of contribution :Heart:
