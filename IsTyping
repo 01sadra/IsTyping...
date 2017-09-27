@@ -1,15 +1,14 @@
 #!/bin/bash
 
-
 echo "Hi! how many minutes is enough for your purpose?"
 read min
 
-#check if input is a number or not
+# Check if input is a number or not
 while [[ ! $min =~ ^[0-9]+$ ]];
-    do
+do
     echo "Please enter a number:"
     read min
-    done
+done
 
 # Search for telegram window id
 function get_window_id () {
@@ -29,32 +28,31 @@ fi
 # window_id example: 100663300
 echo $window_id
 
-#make an array with statment and convert minutes to seconds
+# Make an array with statement and convert minutes to seconds
 array=(i love you.)
 sec=min*60/4
 
-#do the job:) 
+# Do the job:) 
 for ((i=1; i<=sec; i++))
-    do 
+do 
     for item in ${array[@]}
-        do  
+    do  
         xdotool type --window $window_id "$item "
         sleep 1
-        done
+    done
 
     sleep 1
 
-#simulate human behavior with stop a while
+# Simulate human behavior with stop a while
     if (($i % 10 == 0))
     then
         sleep 10
     fi
 
-        if (($i % 37 == 0))
+    if (($i % 37 == 0))
     then
         sleep 15
     fi
-
 done
 
 exit
