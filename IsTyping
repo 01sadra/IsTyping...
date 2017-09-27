@@ -11,10 +11,10 @@ while [[ ! $min =~ ^[0-9]+$ ]];
     read min
     done
 
-#search for telegram window id
+search for telegram window id
 get_window_id(){
     value= xdotool search --name "Telegram "
-    echo value
+    echo $value
 }
 
 window_id=$(get_window_id)
@@ -29,8 +29,9 @@ sec=min*60/4
 for ((i=1; i<=sec; i++))
     do 
     for item in ${array[@]}
-        do
+        do  
         xdotool type --window $window_id "$item "
+        sleep 1
         done
 
     sleep 1
