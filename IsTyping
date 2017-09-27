@@ -11,14 +11,22 @@ while [[ ! $min =~ ^[0-9]+$ ]];
     read min
     done
 
-search for telegram window id
-get_window_id(){
+# Search for telegram window id
+function get_window_id () {
     value= xdotool search --name "Telegram "
-    echo $value
+    return $value
 }
 
 window_id=$(get_window_id)
-#window_id=100663300
+
+# Show proper error if telegram is not running.
+if [ -z $window_id ];
+then
+    echo "Error: run telegram and try again."
+    exit
+fi
+
+# window_id example: 100663300
 echo $window_id
 
 #make an array with statment and convert minutes to seconds
