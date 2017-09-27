@@ -20,5 +20,6 @@ Here, I chat with myself :) and as you can see "Is Typing..." is working.
 
 Hooray :) !
 
-##contribution
+## Contribution
+
 It's not Linux Core but I will appreciate any kind of contribution :Heart:
