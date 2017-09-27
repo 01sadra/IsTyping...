@@ -13,6 +13,6 @@ Run:
 cd IsTyping/
 ./IsTyping
 ```
-[](https://github.com/01sadra/IsTyping.../blob/master/GifSample/isTypingSample.gif)
+![alt](https://github.com/01sadra/IsTyping.../blob/master/GifSample/isTypingSample.gif "gif sample")
 
 Hooray :) !
