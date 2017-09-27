@@ -22,4 +22,4 @@ Hooray :) !
 
 ## Contribution
 
-It's not Linux Core but I will appreciate any kind of contribution :Heart:
+It's not Linux Core but I will appreciate any kind of contribution :heart:
