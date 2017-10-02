@@ -1,7 +1,7 @@
 # IsTyping...
 A simple Bash script to simulate "is typing..." in Telegram(desktop)
 
-I write a blog post in Farsi about this script [here](https://sadraa.me/40linebash/)
+I write a blog post in Farsi about this script, [here](https://sadraa.me/40linebash/)
 
 First install xdotool
 ```
