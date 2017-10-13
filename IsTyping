@@ -4,7 +4,7 @@ echo "Hi! how many minutes is enough for your purpose?"
 read min
 
 # Check if input is a number or not
-while [[ ! $min =~ ^[0-9]+$ ]];
+while [[ ! $min =~ ^-?[0-9]+$ ]];
 do
     echo "Please enter a number:"
     read min
@@ -29,7 +29,7 @@ fi
 echo $window_id
 
 # Make an array with statement and convert minutes to seconds
-array=(i love you.)
+array=(i need you, your are the only one whom i'm in LOVE with.)
 sec=min*60/4
 
 # Do the job:) 
