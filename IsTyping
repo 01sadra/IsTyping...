@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Hi! how many minutes is enough for your purpose?"
+echo "Salam! how many minutes is enough for your purpose?"
 read min
 
 # Check if input is a number or not
