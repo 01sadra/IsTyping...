@@ -1,4 +1,8 @@
 # IsTyping...
+[![GitHub forks](https://img.shields.io/github/forks/01sadra/IsTyping....svg)](https://github.com/01sadra/IsTyping.../network)
+[![GitHub license](https://img.shields.io/github/license/01sadra/IsTyping....svg)](https://github.com/01sadra/IsTyping.../blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/01sadra/IsTyping....svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2F01sadra%2FIsTyping...)
+
 A simple Bash script to simulate "is typing..." in Telegram(desktop)
 
 I write a blog post in Farsi about this script, [here](https://sadraa.me/40linebash/)
