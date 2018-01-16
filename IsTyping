@@ -1,13 +1,11 @@
 #!/bin/bash
 
-echo "Salam! how many minutes is enough for your purpose?"
-read min
+read -p "Salam! how many minutes is enough for your purpose?" min
 
 # Check if input is a number or not
 while [[ ! $min =~ ^[0-9]+$ ]];
 do
-    echo "Please enter a number:"
-    read min
+    read -p "Please enter a number:" min
 done
 
 # Search for telegram window id
